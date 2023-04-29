@@ -1,0 +1,51 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_urls static admin_modify %}
+
+{% block content %}
+<div id="content-main">
+    <form enctype="multipart/form-data" action="{{ form_url }}" method="post" id="{{ opts.model_name }}_form" novalidate>
+        {% csrf_token %}
+
+        {% if form.errors %}
+            <p class="errornote">{% if form.errors|length == 1 %}{% translate "Please correct the error below." %}{% else %}{% translate "Please correct the errors below." %}{% endif %}</p>
+            {{ form.non_field_errors }}
+        {% endif %}
+
+        <fieldset class="module aligned">
+            <div class="form-row">
+                <label>Estudiante:</label>
+                <div class="readonly">{{ pagare.arancel_estudiante.estudiante }}</div>
+            </div>
+
+            <div class="form-row">
+                <label>Modalidad cuota:</label>
+                <div class="readonly">{{ pagare.modalidad_cuota }}</div>
+            </div>
+
+            <div class="form-row">
+                <label>Monto arancel:</label>
+                <div class="readonly">{{ pagare.monto_arancel }}</div>
+            </div>
+
+            <div class="form-row">
+                <label>Estado:</label>
+                <div class="readonly">{{ pagare.get_estado_display }}</div>
+            </div>
+
+            <div class="form-row required">
+                {{ form.errors.documento_escaneado }}
+                <label for="{{ form.documento_escaneado.id_for_label }}">{{ form.documento_escaneado.label }}:</label>
+                {{ form.documento_escaneado }}
+            </div>
+        </fieldset>
+
+        <div class="submit-row">
+            <p class="deletelink-box">
+                <a href="{% url opts|admin_urlname:'changelist' %}" class="deletelink">Volver</a>
+            </p>
+
+            <input type="submit" value="Validar Pagaré" class="default" name="_confirmar">
+        </div>
+    </form>
+</div>
+{% endblock %}

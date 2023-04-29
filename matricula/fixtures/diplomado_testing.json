@@ -1,0 +1,64 @@
+[
+{
+  "model": "academica.carrera",
+  "pk": 13,
+  "fields": {
+    "departamento": 3,
+    "nombre": "Diplomado en Testing",
+    "tipo_carrera": 1
+  }
+},
+{
+  "model": "academica.plan",
+  "pk": 13,
+  "fields": {
+    "carrera": 13,
+    "version": 1,
+    "codigo_demre": "PENDIENTE"
+  }
+},
+{
+  "model": "matricula.valorarancel",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 13,
+    "valor": 200,
+    "decreto": "297",
+    "decreto_ano": 2021,
+    "creado": "2021-09-01T00:00Z",
+    "modificado": "2021-09-01T00:00Z"
+  }
+},
+{
+  "model": "matricula.valormatricula",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 13,
+    "valor": 100,
+    "decreto": "297",
+    "decreto_ano": 2021,
+    "creado": "2021-09-01T00:00Z",
+    "modificado": "2021-09-01T00:00Z"
+  }
+},
+{
+  "model": "pagos.productos",
+  "fields": {
+    "categoria": 1,
+    "subcategoria": 3,
+    "codigo_interno": 13,
+    "nombre": "Arancel Diplomado en Educación de Derechos Humanos",
+    "valor": 200,
+    "descripcion_corta": "",
+    "descripcion_larga": "",
+    "stock": 0,
+    "estado": true,
+    "creado": "2021-09-01T00:00Z",
+    "modificado": "2021-09-01T00:00Z"
+  }
+}
+]

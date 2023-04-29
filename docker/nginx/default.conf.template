@@ -1,0 +1,40 @@
+map $http_origin $allow_origin {
+    ${DJANGO_URL_MATRICULA} $http_origin;
+    ${DJANGO_URL_SGA} $http_origin;
+    default "";
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+
+    location / {
+        proxy_pass http://django:8000;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $http_host;
+        proxy_redirect off;
+    }
+
+    location /static/ {
+        alias /home/app/web/static/;
+    }
+
+    location /media/ {
+        add_header 'Access-Control-Allow-Origin' $allow_origin;
+        add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+        add_header 'Access-Control-Allow-Credentials' 'true';
+        add_header 'Access-Control-Allow-Headers' 'DNT, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Range, Authorization';
+
+        if ($request_method = OPTIONS ) {
+            add_header 'Access-Control-Allow-Origin' $allow_origin;
+            add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+            add_header 'Access-Control-Allow-Credentials' 'true';
+            add_header 'Access-Control-Allow-Headers' 'DNT, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, Range, Authorization';
+            add_header Content-Length 0;
+            add_header Content-Type text/plain;
+            return 204;
+        }
+
+        alias /home/app/web/media/;
+    }
+}

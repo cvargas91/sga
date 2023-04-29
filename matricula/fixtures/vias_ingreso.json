@@ -1,0 +1,38 @@
+[
+{
+  "model": "matricula.viaingreso",
+  "pk": 1,
+  "fields": {
+    "creado": "2021-01-22T19:19:07.498Z",
+    "modificado": "2021-01-22T19:19:07.498Z",
+    "nombre": "regular"
+  }
+},
+{
+  "model": "matricula.viaingreso",
+  "pk": 2,
+  "fields": {
+    "creado": "2021-02-03T17:55:31.972Z",
+    "modificado": "2021-02-03T17:55:31.972Z",
+    "nombre": "especial"
+  }
+},
+{
+  "model": "matricula.viaingreso",
+  "pk": 3,
+  "fields": {
+    "creado": "2021-02-03T17:55:35.331Z",
+    "modificado": "2021-02-03T17:55:35.331Z",
+    "nombre": "PACE"
+  }
+},
+{
+  "model": "matricula.viaingreso",
+  "pk": 4,
+  "fields": {
+    "creado": "2021-02-03T17:55:39.900Z",
+    "modificado": "2021-02-03T17:55:39.900Z",
+    "nombre": "BEA"
+  }
+}
+]

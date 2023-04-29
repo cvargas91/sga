@@ -1,0 +1,166 @@
+[
+{
+  "model": "academica.departamento",
+  "pk": 1,
+  "fields": {
+    "nombre": "Ciencias de la Salud"
+  }
+},
+{
+  "model": "academica.departamento",
+  "pk": 2,
+  "fields": {
+    "nombre": "Área de Inglés"
+  }
+},
+{
+  "model": "academica.departamento",
+  "pk": 3,
+  "fields": {
+    "nombre": "Ciencias Naturales y Tecnología"
+  }
+},
+{
+  "model": "academica.departamento",
+  "pk": 4,
+  "fields": {
+    "nombre": "Ciencias Sociales y Humanidades"
+  }
+},
+{
+  "model": "academica.carrera",
+  "pk": 1,
+  "fields": {
+    "departamento": 1,
+    "nombre": "Enfermería"
+  }
+},
+{
+  "model": "academica.carrera",
+  "pk": 2,
+  "fields": {
+    "departamento": 1,
+    "nombre": "Obstetricia"
+  }
+},
+{
+  "model": "academica.carrera",
+  "pk": 3,
+  "fields": {
+    "departamento": 3,
+    "nombre": "Agronomía"
+  }
+},
+{
+  "model": "academica.carrera",
+  "pk": 4,
+  "fields": {
+    "departamento": 3,
+    "nombre": "Ingeniería Forestal"
+  }
+},
+{
+  "model": "academica.carrera",
+  "pk": 5,
+  "fields": {
+    "departamento": 3,
+    "nombre": "Ingeniería Civil Industrial"
+  }
+},
+{
+  "model": "academica.carrera",
+  "pk": 6,
+  "fields": {
+    "departamento": 4,
+    "nombre": "Trabajo Social"
+  }
+},
+{
+  "model": "academica.carrera",
+  "pk": 7,
+  "fields": {
+    "departamento": 4,
+    "nombre": "Psicología"
+  }
+},
+{
+  "model": "academica.carrera",
+  "pk": 8,
+  "fields": {
+    "departamento": 3,
+    "nombre": "Ingeniería Civil Informática"
+  }
+},
+{
+  "model": "academica.plan",
+  "pk": 1,
+  "fields": {
+    "carrera": 1,
+    "version": 1,
+    "codigo_demre": "48001"
+  }
+},
+{
+  "model": "academica.plan",
+  "pk": 2,
+  "fields": {
+    "carrera": 2,
+    "version": 1,
+    "codigo_demre": "48002"
+  }
+},
+{
+  "model": "academica.plan",
+  "pk": 3,
+  "fields": {
+    "carrera": 3,
+    "version": 1,
+    "codigo_demre": "48006"
+  }
+},
+{
+  "model": "academica.plan",
+  "pk": 4,
+  "fields": {
+    "carrera": 4,
+    "version": 1,
+    "codigo_demre": "48005"
+  }
+},
+{
+  "model": "academica.plan",
+  "pk": 5,
+  "fields": {
+    "carrera": 5,
+    "version": 1,
+    "codigo_demre": "48004"
+  }
+},
+{
+  "model": "academica.plan",
+  "pk": 6,
+  "fields": {
+    "carrera": 6,
+    "version": 1,
+    "codigo_demre": "48008"
+  }
+},
+{
+  "model": "academica.plan",
+  "pk": 7,
+  "fields": {
+    "carrera": 7,
+    "version": 1,
+    "codigo_demre": "48009"
+  }
+},
+{
+  "model": "academica.plan",
+  "pk": 8,
+  "fields": {
+    "carrera": 8,
+    "version": 1,
+    "codigo_demre": "48010"
+  }
+}
+]

@@ -1,0 +1,16 @@
+{% extends 'admin/base.html' %}
+
+{% block extrastyle %}{{ block.super }}
+<style>
+:root {
+  --primary: #55bfe9;
+  --secondary: #375282;
+  --accent: #41b99e;
+  --primary-fg: #fff;
+  --header-color: #fff;
+
+  --breadcrumbs-fg: #ddd;
+  --breadcrumbs-link-fg: #fff;
+}
+</style>
+{% endblock %}

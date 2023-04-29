@@ -1,0 +1,49 @@
+version: '3'
+
+services:
+  postgresdb:
+    container_name: postgresdb
+    image: postgres:13.1-alpine
+    restart: always
+    env_file:
+      - config/.env
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+        #  django:
+        #    container_name: django
+        #    build:
+        #      context: .
+        #      dockerfile: docker/web/Dockerfile
+        #    command: >
+        #      gunicorn uaysenOnline.wsgi:application --bind 0.0.0.0:8000 --workers=4
+        #    env_file:
+        #      - config/.env
+        #    expose:
+        #      - 8000
+        #    depends_on:
+        #      - postgresdb
+        #    volumes:
+        ##      - ${PWD}/:/home/app/web
+        #      - staticfiles:/home/app/web/static
+        #      - mediafiles:/home/app/web/media
+        #  nginx:
+        #    container_name: nginx-backend
+        #    image: nginx:1.18.0-alpine
+        #    restart: always
+        #    ports:
+        #      - 8000:80
+        #    volumes:
+        #      - ./docker/nginx:/etc/nginx/conf.d
+        ##      - ${PWD}/:/home/app/web
+        #      - staticfiles:/home/app/web/static
+        #      - mediafiles:/home/app/web/media
+        #    depends_on:
+        #      - django
+        #
+volumes:
+  postgres-data:
+          #  staticfiles:
+          #  mediafiles:

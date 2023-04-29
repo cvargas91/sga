@@ -1,0 +1,64 @@
+[
+{
+  "model": "academica.carrera",
+  "pk": 12,
+  "fields": {
+    "departamento": 3,
+    "nombre": "Diplomado en Educación de Derechos Humanos",
+    "tipo_carrera": 1
+  }
+},
+{
+  "model": "academica.plan",
+  "pk": 12,
+  "fields": {
+    "carrera": 12,
+    "version": 1,
+    "codigo_demre": "PENDIENTE"
+  }
+},
+{
+  "model": "matricula.valorarancel",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 12,
+    "valor": 350000,
+    "decreto": "296",
+    "decreto_ano": 2021,
+    "creado": "2021-09-01T00:00Z",
+    "modificado": "2021-09-01T00:00Z"
+  }
+},
+{
+  "model": "matricula.valormatricula",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 12,
+    "valor": 46000,
+    "decreto": "296",
+    "decreto_ano": 2021,
+    "creado": "2021-09-01T00:00Z",
+    "modificado": "2021-09-01T00:00Z"
+  }
+},
+{
+  "model": "pagos.productos",
+  "fields": {
+    "categoria": 1,
+    "subcategoria": 3,
+    "codigo_interno": 12,
+    "nombre": "Arancel Diplomado en Educación de Derechos Humanos",
+    "valor": 350000,
+    "descripcion_corta": "",
+    "descripcion_larga": "",
+    "stock": 0,
+    "estado": true,
+    "creado": "2021-09-01T00:00Z",
+    "modificado": "2021-09-01T00:00Z"
+  }
+}
+]

@@ -1,0 +1,76 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_urls %}
+
+{% block content %}
+<div id="content-main">
+
+    <form action="{{ form_url }}" method="post" novalidate>
+        {% csrf_token %}
+
+        {% if form.errors %}
+            <p class="errornote">
+                {% if errors|length == 1 %}
+                {% translate "Please correct the error below." %}
+                {% else %}
+                {% translate "Please correct the errors below." %}
+                {% endif %}
+            </p>
+            {{ form.non_field_errors }}
+        {% endif %}
+
+        <fieldset class="module aligned">
+            <div class="form-row">
+                <label>Id:</label>
+                <div class="readonly">{{ orden_compra.id }}</div>
+            </div>
+
+            <div class="form-row">
+                <label>Persona:</label>
+                <div class="readonly">{{ orden_compra.persona }}</div>
+            </div>
+
+            <div class="form-row">
+                <label>Monto:</label>
+                <div class="readonly">{{ orden_compra.monto_a_pagar }}</div>
+            </div>
+
+            <div class="form-row">
+                <label>Estado Pago:</label>
+                <div class="readonly">{{ orden_compra.get_estado_pago_display }}</div>
+            </div>
+
+            <div class="form-row">
+                {{ form.errors.forma_pago }}
+
+                <label class="required" for="{{ form.forma_pago.id_for_label }}">
+                    Forma de Pago:
+                </label>
+
+                {{ form.forma_pago }}
+            </div>
+
+            <div class="form-row">
+                {{ form.errors.folio_dte }}
+                <label class="required" for="{{ form.folio_dte.id_for_label }}">
+                    {{ form.folio_dte.label }}:
+                </label>
+                {{ form.folio_dte }}
+            </div>
+
+            <div class="form-row">
+                {{ form.errors.comentario }}
+                <label for="{{ form.comentario.id_for_label }}">{{ form.comentario.label }}:</label>
+                {{ form.comentario }}
+            </div>
+        </fieldset>
+
+        <div class="submit-row">
+            <p class="deletelink-box">
+                <a href="{% url opts|admin_urlname:'changelist' %}" class="deletelink">Volver</a>
+            </p>
+
+            <input type="submit" value="Validar Pago" class="default" name="_confirmar">
+        </div>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base_certificados.html" %}
+
+{% block titulo %}Certificado de Estudiante Regular{% endblock %}
+
+{% block contenido %}
+  <h1>Certificado de Matrícula</h1>
+
+  <p>
+    La Secretaria General que suscribe, certifica que
+    <b>{{estudiante.persona.nombre_legal_ordenado}}</b>,
+    Cédula de Identidad N° <b>{{estudiante.persona.documento}}</b>,
+    ha realizado correctamente el proceso de matrícula {{ano}}
+    en la carrera de {{estudiante.plan.carrera}}, dependiente de la Universidad de Aysén.
+  </p>
+
+  <p>Se otorga el presente certificado a solicitud del estudiante.</p>
+{% endblock %}

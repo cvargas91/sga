@@ -1,0 +1,450 @@
+[
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 2,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 0,
+    "link_pagare": "169UbTtJNy9fG5bqLIQz7h64TvTeHhPPL",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 2,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 0,
+    "link_pagare": "162JmV1aGt5rKcfnAB9UUfW029UoBt7H6",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 3,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 0,
+    "link_pagare": "152pCP3l2dejJvfMQMMxQVvVO4OPG00Uz",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 3,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 0,
+    "link_pagare": "14o1GNT4CQMH2nPlD2utoSB8VWOCXxtE0",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 4,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 0,
+    "link_pagare": "15y8G5daufegjCYSa6eHJKBzswJID2O5k",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 4,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 0,
+    "link_pagare": "15rw70p4xneE6COIJNXK5oA6FYXBRx7Tm",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 5,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 0,
+    "link_pagare": "15FdjkplkFt6FWD7zsGffwgt7uu-wxqhN",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 5,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 0,
+    "link_pagare": "15PRsSgRcy0b-oYtixyKPZtmJ-gBUF0fC",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 6,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 0,
+    "link_pagare": "16iJygTVUgrK0rxrbdOzv7D039dIGoYh7",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 6,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 0,
+    "link_pagare": "16_ivFwX9ig__DlaD0-9zA-vGF_IMYjz3",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 7,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 0,
+    "link_pagare": "16UsqPRGC9yqNlC0sWCT-AWZO3cI7-sKW",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 7,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 0,
+    "link_pagare": "16VGI8dB5rG3sgAP3BorfZAyB42fn3E1t",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 8,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 0,
+    "link_pagare": "15mLgDMF-lDyq6A4V-onEK_g42iy91twD",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 8,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 0,
+    "link_pagare": "15bdjzdWn5-OioMpcYhkUpYpOmJDDFOAg",
+    "fecha_entrega": "18 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 1,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 1,
+    "link_pagare": "1S0z8ptt-sOTnshWlMHSFVgzZKv08aPH-",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 1,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 1,
+    "link_pagare": "1S75ARTR0y8SaFwFAM0LKKtXKpxbQKMf_",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 2,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 1,
+    "link_pagare": "1SOvpbS6caQYTQl-wGP5MDlzXh49YS5fv",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 2,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 1,
+    "link_pagare": "1SOxatVSF6REsuE_PbZemNDbv8OXF021t",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 3,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 1,
+    "link_pagare": "1RlFN-UlDLy0kaCY-vEWYgAmqn4uaVdOG",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 3,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 1,
+    "link_pagare": "1Rv3ASdLxmphBm0eVKdQH2-BqW1JGnIcS",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 4,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 1,
+    "link_pagare": "1SKOFgSD3iMjh4wbBuUnpxyhbCtrGjmB6",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 4,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 1,
+    "link_pagare": "1SMlGprXPZTEBqwZGIJNdlRt9dHZ2Jk1X",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 5,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 1,
+    "link_pagare": "1S8y48BAyzSKJlzj4Brd8bi9Wq3m_tnF1",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 5,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 1,
+    "link_pagare": "1SIYgb9WCeB_pj1hBE9sXG9ZEuuZrEzYW",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 6,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 1,
+    "link_pagare": "1SblHv0Jr3TKcPpARKAd0c_NW2kahQDC2",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 6,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 1,
+    "link_pagare": "1ShDyIVpTmzVyL71Kk2XmbjQewB7wJE5b",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 7,
+    "cantidad_cuotas": 9,
+    "curso_asociado": 1,
+    "link_pagare": "1SSLBJ6ojXoQksbi1Fvdwhgo4TspD7wFn",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "26 de abril",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+},
+{
+  "model": "pagare.modalidadcuotapagare",
+  "fields": {
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 7,
+    "cantidad_cuotas": 10,
+    "curso_asociado": 1,
+    "link_pagare": "1SV7FvGysZzPf9Jrib8ddnHXK914BryzZ",
+    "fecha_entrega": "30 de marzo",
+    "fecha_primera_cuota": "25 de marzo",
+    "creado": "2021-05-07",
+    "modificado": "2021-05-07"
+  }
+}
+]

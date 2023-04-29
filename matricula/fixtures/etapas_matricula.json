@@ -1,0 +1,52 @@
+[
+{
+  "model": "matricula.etapamatricula",
+  "fields": {
+    "creado": "2021-02-03T18:32:55.557Z",
+    "modificado": "2021-02-03T18:32:55.558Z",
+    "nombre": "Aceptar vacante",
+    "descripcion": "El postulante acepta su vacante en la carrera",
+    "numero": 1
+  }
+},
+{
+  "model": "matricula.etapamatricula",
+  "fields": {
+    "creado": "2021-02-03T18:33:34.706Z",
+    "modificado": "2021-02-03T18:33:34.706Z",
+    "nombre": "Ingreso datos personales",
+    "descripcion": "el estudiante confirma sus datos personales e ingresa los datos de un contacto de emergencia",
+    "numero": 2
+  }
+},
+{
+  "model": "matricula.etapamatricula",
+  "fields": {
+    "creado": "2021-02-03T18:34:04.752Z",
+    "modificado": "2021-02-03T18:34:04.752Z",
+    "nombre": "pago matrícula",
+    "descripcion": "el estudiante selecciona su medio de pago para la matrícula",
+    "numero": 3
+  }
+},
+{
+  "model": "matricula.etapamatricula",
+  "fields": {
+    "creado": "2021-02-03T18:34:36.869Z",
+    "modificado": "2021-02-03T18:34:36.869Z",
+    "nombre": "pago arancel",
+    "descripcion": "el estudiante selecciona su medio de pago para el arancel (y paga en caso de seleccionar webpay)",
+    "numero": 4
+  }
+},
+{
+  "model": "matricula.etapamatricula",
+  "fields": {
+    "creado": "2021-02-03T18:35:13.380Z",
+    "modificado": "2021-02-03T18:35:13.380Z",
+    "nombre": "Resumen",
+    "descripcion": "el estudiante puede consultar el estado de sus pagos, en caso de estar confirmados se muestra video de bienvenida",
+    "numero": 5
+  }
+}
+]

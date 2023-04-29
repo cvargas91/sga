@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>{% block titulo %}{% endblock %}</title>
+
+  <style>
+  @media only screen and (max-width: 740px) {
+    table[class=body] .main {
+      padding: 10px !important;
+      border-radius: 0 !important;
+    }
+    table[class=body] .container {
+      padding: 0 !important;
+    }
+  }
+  </style>
+</head>
+
+<body style="
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 0;
+">
+  <table border="0" cellpadding="0" cellspacing="0" class="body"
+    style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;
+  ">
+    <tr>
+      <td class="container" align="center" style="
+        vertical-align: top;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 700px;
+        padding: 20px;
+      ">
+
+        <!-- contenedor blanco -->
+        <table class="main" border="0" cellpadding="0" cellspacing="0" style="
+          border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;
+          width: 100%;
+          background: #ffffff;
+          border-radius: 3px;
+          margin-bottom: 20px;
+          padding: 20px;
+        ">
+          {% block logo %}
+            <!-- logo -->
+            <tr>
+              <td align="center">
+                <a href="https://uaysen.cl/" title="Universidad de Aysén" target="_blank">
+                  <img
+                    src="cid:logo_uaysen" title="Logo UAysén" width="250"
+                    style="
+                      outline: none;
+                      text-decoration: none;
+                      -ms-interpolation-mode: bicubic;
+                      clear: both;
+                      display: block !important;
+                      border: none;
+                      height: auto;
+                      float: none;
+                      margin: 0 0 1rem;
+                    "
+                  />
+                </a>
+              </td>
+            </tr>
+          {% endblock logo %}
+
+          {% block contenido %}{% endblock %}
+        </table>
+
+        <!-- footer -->
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+          <tr>
+            <td align="center" style="font-size: 12px; color: #999">
+              {% block footer %}
+              Universidad de Aysén, Obispo Vielmo #62, Coyhaique.
+              {% endblock %}
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

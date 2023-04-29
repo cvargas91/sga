@@ -1,0 +1,379 @@
+[
+{
+  "model": "pagos.categoriasproductos",
+  "pk": 1,
+  "fields": {
+    "creado": "2021-02-18T12:29:59.300Z",
+    "modificado": "2021-02-18T12:30:07.108Z",
+    "nombre": "Matrícula 2021",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.subcategoriasproductos",
+  "pk": 1,
+  "fields": {
+    "creado": "2021-02-18T12:30:31.781Z",
+    "modificado": "2021-02-18T12:30:31.781Z",
+    "nombre": "Matrícula",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.subcategoriasproductos",
+  "pk": 2,
+  "fields": {
+    "creado": "2021-02-18T12:30:39.505Z",
+    "modificado": "2021-02-18T12:30:39.505Z",
+    "nombre": "TNE",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.subcategoriasproductos",
+  "pk": 3,
+  "fields": {
+    "creado": "2021-02-18T12:30:39.505Z",
+    "modificado": "2021-02-18T12:30:39.505Z",
+    "nombre": "Arancel",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.productos",
+  "pk": 1,
+  "fields": {
+    "creado": "2021-02-18T12:32:27.466Z",
+    "modificado": "2021-02-18T13:10:46.637Z",
+    "categoria": 1,
+    "subcategoria": 1,
+    "nombre": "Matrícula 2021",
+    "codigo_interno": 1,
+    "observaciones_codigo_interno": "valor_matricula.proceso_matricula_id",
+    "descripcion_corta": "Valor Matrícula 2021",
+    "descripcion_larga": "Valor Matrícula 2021",
+    "unidad_medida": "Peso",
+    "stock": 500,
+    "valor": 108500,
+    "valor_antes": 105000,
+    "marca": "Matrícula 2021",
+    "numero_serie": "0",
+    "destacado": false,
+    "numero_vistas": 0,
+    "estado": true
+  }
+},
+{
+  "model": "pagos.productos",
+  "pk": 2,
+  "fields": {
+    "creado": "2021-02-18T12:33:11.414Z",
+    "modificado": "2021-02-18T12:33:11.414Z",
+    "categoria": 1,
+    "subcategoria": 2,
+    "nombre": "TNE 2021",
+    "codigo_interno": 9,
+    "observaciones_codigo_interno": null,
+    "descripcion_corta": "TNE 2021",
+    "descripcion_larga": "TNE 2021",
+    "unidad_medida": "Peso",
+    "stock": 500,
+    "valor": 2700,
+    "valor_antes": 2000,
+    "marca": "TNE 2021",
+    "numero_serie": "0",
+    "destacado": false,
+    "numero_vistas": 0,
+    "estado": true
+  }
+},
+{
+  "model": "pagos.productos",
+  "pk": 3,
+  "fields": {
+    "creado": "2021-02-18T12:34:16.564Z",
+    "modificado": "2021-02-18T13:09:20.784Z",
+    "categoria": 1,
+    "subcategoria": 3,
+    "nombre": "Arancel Informática 2021",
+    "codigo_interno": 8,
+    "observaciones_codigo_interno": "valor_arancel.plan_id",
+    "descripcion_corta": "Arancel Informática 2021",
+    "descripcion_larga": "Arancel Informática 2021",
+    "unidad_medida": "Peso",
+    "stock": 500,
+    "valor": 2800000,
+    "valor_antes": 2700000,
+    "marca": "Arancel Informática 2021",
+    "numero_serie": "0",
+    "destacado": false,
+    "numero_vistas": 0,
+    "estado": true
+  }
+},
+{
+  "model": "pagos.productos",
+  "pk": 4,
+  "fields": {
+    "creado": "2021-02-18T12:41:48.093Z",
+    "modificado": "2021-02-18T13:10:08.956Z",
+    "categoria": 1,
+    "subcategoria": 3,
+    "nombre": "Arancel industrial 2021",
+    "codigo_interno": 5,
+    "observaciones_codigo_interno": "valor_arancel.plan_id",
+    "descripcion_corta": "Arancel industrial 2021",
+    "descripcion_larga": "Arancel industrial 2021",
+    "unidad_medida": "Peso",
+    "stock": 500,
+    "valor": 2800000,
+    "valor_antes": 0,
+    "marca": "Arancel industrial 2021",
+    "numero_serie": "0",
+    "destacado": null,
+    "numero_vistas": 0,
+    "estado": true
+  }
+},
+{
+  "model": "pagos.productos",
+  "pk": 5,
+  "fields": {
+    "creado": "2021-02-18T12:42:27.085Z",
+    "modificado": "2021-02-18T13:09:32.327Z",
+    "categoria": 1,
+    "subcategoria": 3,
+    "nombre": "Arancel enfermeria 2021",
+    "codigo_interno": 1,
+    "observaciones_codigo_interno": "valor_arancel.plan_id",
+    "descripcion_corta": "Arancel enfermeria 2021",
+    "descripcion_larga": "Arancel enfermeria 2021",
+    "unidad_medida": "Peso",
+    "stock": 500,
+    "valor": 2800000,
+    "valor_antes": 0,
+    "marca": "Arancel enfermeria 2021",
+    "numero_serie": "0",
+    "destacado": null,
+    "numero_vistas": 0,
+    "estado": true
+  }
+},
+{
+  "model": "pagos.productos",
+  "pk": 6,
+  "fields": {
+    "creado": "2021-02-18T12:43:01.477Z",
+    "modificado": "2021-02-18T13:09:37.921Z",
+    "categoria": 1,
+    "subcategoria": 3,
+    "nombre": "Arancel agronomía 2021",
+    "codigo_interno": 3,
+    "observaciones_codigo_interno": "valor_arancel.plan_id",
+    "descripcion_corta": "Arancel agronomía 2021",
+    "descripcion_larga": "Arancel agronomía 2021",
+    "unidad_medida": "Peso",
+    "stock": 500,
+    "valor": 2800000,
+    "valor_antes": 0,
+    "marca": "Arancel agronomía 2021",
+    "numero_serie": "0",
+    "destacado": null,
+    "numero_vistas": 0,
+    "estado": true
+  }
+},
+{
+  "model": "pagos.productos",
+  "pk": 7,
+  "fields": {
+    "creado": "2021-02-18T12:43:37.693Z",
+    "modificado": "2021-02-18T13:09:42.485Z",
+    "categoria": 1,
+    "subcategoria": 3,
+    "nombre": "Arancel trabajo social 2021",
+    "codigo_interno": 6,
+    "observaciones_codigo_interno": "valor_arancel.plan_id",
+    "descripcion_corta": "Arancel trabajo social 2021",
+    "descripcion_larga": "Arancel trabajo social 2021",
+    "unidad_medida": "Peso",
+    "stock": 500,
+    "valor": 2800000,
+    "valor_antes": 0,
+    "marca": "Arancel trabajo social 2021",
+    "numero_serie": "0",
+    "destacado": null,
+    "numero_vistas": 0,
+    "estado": true
+  }
+},
+{
+  "model": "pagos.productos",
+  "pk": 8,
+  "fields": {
+    "creado": "2021-02-18T12:44:17.311Z",
+    "modificado": "2021-02-18T13:09:48.807Z",
+    "categoria": 1,
+    "subcategoria": 3,
+    "nombre": "Arancel psicología 2021",
+    "codigo_interno": 7,
+    "observaciones_codigo_interno": "valor_arancel.plan_id",
+    "descripcion_corta": "Arancel psicología 2021",
+    "descripcion_larga": "Arancel psicología 2021",
+    "unidad_medida": "Peso",
+    "stock": 500,
+    "valor": 2800000,
+    "valor_antes": 0,
+    "marca": "Arancel psicología 2021",
+    "numero_serie": "0",
+    "destacado": null,
+    "numero_vistas": 0,
+    "estado": true
+  }
+},
+{
+  "model": "pagos.productos",
+  "pk": 9,
+  "fields": {
+    "creado": "2021-02-18T12:44:54.834Z",
+    "modificado": "2021-02-18T13:10:03.884Z",
+    "categoria": 1,
+    "subcategoria": 3,
+    "nombre": "Arancel obtetricia 2021",
+    "codigo_interno": 2,
+    "observaciones_codigo_interno": "valor_arancel.plan_id",
+    "descripcion_corta": "Arancel obtetricia 2021",
+    "descripcion_larga": "Arancel obtetricia 2021",
+    "unidad_medida": "Peso",
+    "stock": 500,
+    "valor": 2800000,
+    "valor_antes": 0,
+    "marca": "Arancel obtetricia 2021",
+    "numero_serie": "0",
+    "destacado": null,
+    "numero_vistas": 0,
+    "estado": true
+  }
+},
+{
+  "model": "pagos.productos",
+  "pk": 10,
+  "fields": {
+    "creado": "2021-02-18T12:45:33.873Z",
+    "modificado": "2021-02-18T13:09:57.751Z",
+    "categoria": 1,
+    "subcategoria": 3,
+    "nombre": "Arancel Forestal 2021",
+    "codigo_interno": 4,
+    "observaciones_codigo_interno": "valor_arancel.plan_id",
+    "descripcion_corta": "Arancel Forestal 2021",
+    "descripcion_larga": "Arancel Forestal 2021",
+    "unidad_medida": "Peso",
+    "stock": 500,
+    "valor": 2800000,
+    "valor_antes": 0,
+    "marca": "Arancel Forestal 2021",
+    "numero_serie": "0",
+    "destacado": null,
+    "numero_vistas": 0,
+    "estado": true
+  }
+},
+{
+  "model": "pagos.modalidadpago",
+  "pk": 1,
+  "fields": {
+    "creado": "2021-02-18T10:41:16.000Z",
+    "modificado": "2021-02-18T10:41:16.000Z",
+    "nombre": "Remota",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.modalidadpago",
+  "pk": 2,
+  "fields": {
+    "creado": "2021-02-18T10:41:22.658Z",
+    "modificado": "2021-02-18T10:41:22.658Z",
+    "nombre": "Presencial",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.formapago",
+  "pk": 1,
+  "fields": {
+    "creado": "2021-02-18T10:42:10.571Z",
+    "modificado": "2021-02-18T10:42:10.571Z",
+    "modalidad_pago": 2,
+    "nombre": "Caja",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.formapago",
+  "pk": 2,
+  "fields": {
+    "creado": "2021-02-18T10:42:19.114Z",
+    "modificado": "2021-02-18T10:42:19.114Z",
+    "modalidad_pago": 2,
+    "nombre": "Efectivo",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.formapago",
+  "pk": 3,
+  "fields": {
+    "creado": "2021-02-18T10:42:29.349Z",
+    "modificado": "2021-02-18T10:42:29.349Z",
+    "modalidad_pago": 2,
+    "nombre": "Cheque",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.formapago",
+  "pk": 4,
+  "fields": {
+    "creado": "2021-02-18T10:42:40.091Z",
+    "modificado": "2021-02-18T10:42:40.091Z",
+    "modalidad_pago": 2,
+    "nombre": "Red Compra",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.formapago",
+  "pk": 5,
+  "fields": {
+    "creado": "2021-02-18T10:42:48.906Z",
+    "modificado": "2021-02-18T10:42:48.906Z",
+    "modalidad_pago": 1,
+    "nombre": "Transferencia",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.formapago",
+  "pk": 6,
+  "fields": {
+    "creado": "2021-02-18T10:42:58.416Z",
+    "modificado": "2021-02-18T10:42:58.416Z",
+    "modalidad_pago": 1,
+    "nombre": "Depósito",
+    "estado": true
+  }
+},
+{
+  "model": "pagos.formapago",
+  "pk": 7,
+  "fields": {
+    "creado": "2021-02-18T10:42:58.416Z",
+    "modificado": "2021-02-18T10:42:58.416Z",
+    "modalidad_pago": 1,
+    "nombre": "Webpay",
+    "estado": true
+  }
+}
+]

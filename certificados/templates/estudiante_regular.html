@@ -1,0 +1,17 @@
+{% extends "base_certificados.html" %}
+
+{% block titulo %}Certificado de Estudiante Regular{% endblock %}
+
+{% block contenido %}
+  <h1>Certificado de Estudiante Regular</h1>
+
+  <p>
+    La Secretaria General que suscribe, certifica que
+    <b>{{estudiante.persona.nombre_legal_ordenado}}</b>,
+    Cédula de Identidad N° <b>{{estudiante.persona.documento}}</b>,
+    registra la calidad de estudiante regular durante el {{periodo}}
+    en la carrera <b>{{estudiante.plan.carrera}}</b>, dependiente de la Universidad de Aysén.
+  </p>
+
+  <p>Se otorga el presente certificado para los fines que estime conveniente.</p>
+{% endblock %}

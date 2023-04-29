@@ -1,0 +1,165 @@
+[
+{
+  "model": "matricula.procesomatricula",
+  "fields": {
+    "creado": "2021-02-05T21:00:06.135Z",
+    "modificado": "2021-02-05T21:00:06.135Z",
+    "ano": 2021,
+    "fecha_vigencia": "2022-02-05",
+    "periodo_ingreso": [
+      2021,
+      1
+    ],
+    "activo": true
+  }
+},
+{
+  "model": "matricula.valorarancel",
+  "pk": 1,
+  "fields": {
+    "creado": "2021-02-11T19:23:06.815Z",
+    "modificado": "2021-02-11T19:23:06.815Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 1,
+    "valor": 2748040,
+    "decreto": "0",
+    "decreto_ano": 2021
+  }
+},
+{
+  "model": "matricula.valorarancel",
+  "pk": 2,
+  "fields": {
+    "creado": "2021-02-11T19:24:01.773Z",
+    "modificado": "2021-02-11T19:24:01.773Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 2,
+    "valor": 2748040,
+    "decreto": "0",
+    "decreto_ano": 2021
+  }
+},
+{
+  "model": "matricula.valorarancel",
+  "pk": 3,
+  "fields": {
+    "creado": "2021-02-11T19:24:27.357Z",
+    "modificado": "2021-02-11T19:24:27.357Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 3,
+    "valor": 2836000,
+    "decreto": "0",
+    "decreto_ano": 2021
+  }
+},
+{
+  "model": "matricula.valorarancel",
+  "pk": 4,
+  "fields": {
+    "creado": "2021-02-11T19:24:35.948Z",
+    "modificado": "2021-02-11T19:24:35.948Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 4,
+    "valor": 2836000,
+    "decreto": "0",
+    "decreto_ano": 2021
+  }
+},
+{
+  "model": "matricula.valorarancel",
+  "pk": 5,
+  "fields": {
+    "creado": "2021-02-11T19:24:52.518Z",
+    "modificado": "2021-02-11T19:24:52.518Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 6,
+    "valor": 2055880,
+    "decreto": "0",
+    "decreto_ano": 2021
+  }
+},
+{
+  "model": "matricula.valorarancel",
+  "pk": 6,
+  "fields": {
+    "creado": "2021-02-11T19:25:13.001Z",
+    "modificado": "2021-02-11T19:25:13.001Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 5,
+    "valor": 2856190,
+    "decreto": "0",
+    "decreto_ano": 2021
+  }
+},
+{
+  "model": "matricula.valorarancel",
+  "pk": 7,
+  "fields": {
+    "creado": "2021-02-11T19:25:29.637Z",
+    "modificado": "2021-02-11T19:25:29.637Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 8,
+    "valor": 2856190,
+    "decreto": "0",
+    "decreto_ano": 2021
+  }
+},
+{
+  "model": "matricula.valorarancel",
+  "pk": 8,
+  "fields": {
+    "creado": "2021-02-11T19:25:55.275Z",
+    "modificado": "2021-02-11T19:25:55.275Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 7,
+    "valor": 2748040,
+    "decreto": "0",
+    "decreto_ano": 2021
+  }
+},
+{
+  "model": "matricula.valormatricula",
+  "pk": 1,
+  "fields": {
+    "creado": "2021-02-11T19:02:40.649Z",
+    "modificado": "2021-02-24T22:25:11.596Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "valor": 108500,
+    "decreto": "0",
+    "decreto_ano": 0
+  }
+},
+{
+  "model": "matricula.periodoprocesomatricula",
+  "pk": 1,
+  "fields": {
+    "creado": "2021-02-05T21:04:45.199Z",
+    "modificado": "2021-02-23T20:34:20.040Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "fecha_inicio": "2021-02-17T14:29:19Z",
+    "fecha_fin": "2021-02-28T21:54:54Z",
+    "descripcion": "periodo de pruebas",
+    "publico": 0
+  }
+}
+]

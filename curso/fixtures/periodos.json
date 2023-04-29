@@ -1,0 +1,83 @@
+[
+{
+  "model": "curso.periodo",
+  "pk": 10,
+  "fields": {
+    "ano": 2017,
+    "numero": 1,
+    "activo": false
+  }
+},
+{
+  "model": "curso.periodo",
+  "pk": 11,
+  "fields": {
+    "ano": 2017,
+    "numero": 2,
+    "activo": false
+  }
+},
+{
+  "model": "curso.periodo",
+  "pk": 12,
+  "fields": {
+    "ano": 2018,
+    "numero": 1,
+    "activo": false
+  }
+},
+{
+  "model": "curso.periodo",
+  "pk": 13,
+  "fields": {
+    "ano": 2018,
+    "numero": 2,
+    "activo": false
+  }
+},
+{
+  "model": "curso.periodo",
+  "pk": 14,
+  "fields": {
+    "ano": 2019,
+    "numero": 1,
+    "activo": false
+  }
+},
+{
+  "model": "curso.periodo",
+  "pk": 15,
+  "fields": {
+    "ano": 2019,
+    "numero": 2,
+    "activo": false
+  }
+},
+{
+  "model": "curso.periodo",
+  "pk": 16,
+  "fields": {
+    "ano": 2020,
+    "numero": 1,
+    "activo": false
+  }
+},
+{
+  "model": "curso.periodo",
+  "pk": 17,
+  "fields": {
+    "ano": 2020,
+    "numero": 2,
+    "activo": true
+  }
+},
+{
+  "model": "curso.periodo",
+  "pk": 18,
+  "fields": {
+    "ano": 2021,
+    "numero": 1,
+    "activo": false
+  }
+}
+]

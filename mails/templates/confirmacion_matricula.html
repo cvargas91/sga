@@ -1,0 +1,66 @@
+{% extends "mail_base.html" %}
+
+{% block titulo %}Confirmación de Matrícula{% endblock %}
+
+{% block contenido %}
+<!-- mensaje -->
+<tr>
+  <td>
+    <div>
+      ¡Felicidades {{ nombre }}! ya estás matrículado/a en {{ carrera }} de la UAysén.
+    </div>
+
+    {% if contrasena %}
+    <div style="margin-top: 1rem;">
+      Ahora cuentas con un correo oficial que podrás usar para todos los asuntos institucionales,
+      puedes acceder a él ingresando a <a href="www.gmail.com">gmail.com</a> usando las siguientes
+      credenciales:
+
+      <div style="margin-left: .5rem; margin-bottom: .5rem; margin-top: .5rem;">
+        <div>mail: <span style="font-weight: bold;">{{ mail }}</span></div>
+        <div>contraseña: <span style="font-weight: bold;">{{ contrasena }}</span></div>
+      </div>
+
+      <div style="color: #888">
+        * Cuando ingreses por primera vez, se te pedirá actualizar la contraseña
+      </div>
+    </div>
+    {% endif %}
+
+    {% if tipo_estudiante == 0 %}
+    <div style="margin-top: 1rem;">
+      Adicionalmente, debes responder la 
+      <a href="https://analisisinstitucional.questionpro.com/a/TakeSurvey?tt=v141lFYVrSEECHrPeIW9eQ%3D%3D">
+        siguiente encuesta</a>, esto es obligatorio para todos los estudiantes y mientras no lo
+        hagas no podras ingresar a las plataformas institucionales.
+    </div>
+    {% endif %}
+
+    {% if certificado %}
+    <div style="margin-top: 1rem;">
+      Adjunto a este mail encontrarás un certificado de matrícula que puedes utilizar para
+      los fines que necesites (por ej: postular a becas y beneficios).
+    </div>
+    {% endif %}
+
+    {% if tipo_estudiante != 2 %}
+    <div style="margin-top: 1rem;">
+    Se adjunta también el documento de términos y condiciones generales que aceptaste al momento de realizar tu matrícula</a>.
+    </div>
+    <div style="margin-top: 1rem;">
+      Recuerda que para completar el proceso de matrícula debes completar tu pago
+      de arancel, ya sea con pago al contado o a través de un pagaré. Puedes revisar tu progreso en
+      el resumen del <a href="matricula.uaysen.cl">portal de matrícula</a>.
+    </div>
+    {% endif %}
+
+    {% if tipo_estudiante == 0 %}
+    <div style="margin-top: 1rem;">
+      Si debes efectuar <b>evaluación socioeconómica</b> puedes solicitar información al
+      correo: jorge.martinez@uaysen.cl. El plazo para realizar este proceso es del 18 al 25 enero.
+      Los resultados de asignación serán publicados el 9 de marzo según cronograma MINEDUC.
+    </div>
+    {% endif %}
+  </td>
+</tr>
+{% endblock %}

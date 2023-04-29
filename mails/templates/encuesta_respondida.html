@@ -1,0 +1,27 @@
+{% extends "mail_base.html" %}
+
+{% block titulo %}Encuesta de Caracterización Respondida{% endblock %}
+
+{% block contenido %}
+<!-- mensaje -->
+<tr>
+  <td>
+    <div style="margin-bottom: 1rem;">
+      ¡Gracias {{ nombre }} por responder la encuesta de caracterización!
+    </div>
+
+    <div style="margin-bottom: 1rem;">
+      Dentro de unos 10 minutos se debería crear automáticamente tu cuenta de ucampus.
+      Esta plataforma es el lugar donde podras realizar la toma de ramos (automático para
+      estudiantes nuevos), acceder a tus cursos, notas, y mucho más!
+    </div>
+
+    <div>
+      Para ingresar por primera vez, debes ingresar al sitio
+      <a href="ucampus.uaysen.cl">ucampus.uaysen.cl</a>, hacer click en el link que dice
+      "¿Necesitas ayuda con tu Clave?" y luego ingresar tu correo institucional. Recibirás un correo
+      con las instrucciones para completar tu registro.
+    </div>
+  </td>
+</tr>
+{% endblock %}

@@ -1,0 +1,65 @@
+[
+{
+  "model": "academica.carrera",
+  "pk": 9,
+  "fields": {
+    "departamento": 3,
+    "nombre": "Diplomado en Fruticultura Agroecológica",
+    "tipo_carrera": 2
+  }
+},
+{
+  "model": "academica.plan",
+  "pk": 9,
+  "fields": {
+    "carrera": 9,
+    "version": 1,
+    "codigo_demre": "PENDIENTE"
+  }
+},
+{
+  "model": "matricula.valorarancel",
+  "fields": {
+    "creado": "2021-05-07T00:00Z",
+    "modificado": "2021-05-07T00:00Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 9,
+    "valor": 1103892,
+    "decreto": "0",
+    "decreto_ano": 2021
+  }
+},
+{
+  "model": "matricula.valormatricula",
+  "fields": {
+    "creado": "2021-05-07T00:00Z",
+    "modificado": "2021-05-07T00:00Z",
+    "proceso_matricula": [
+      2021
+    ],
+    "plan": 9,
+    "valor": 46000,
+    "decreto": "0",
+    "decreto_ano": 2021
+  }
+},
+{
+  "model": "pagos.productos",
+  "fields": {
+    "creado": "2021-05-07T00:00Z",
+    "modificado": "2021-05-07T00:00Z",
+    "categoria": 1,
+    "subcategoria": 3,
+    "codigo_interno": 9,
+    "nombre": "Arancel Diplomado en Fruticultura Agroecológica",
+    "valor": 1103892,
+    "descripcion_corta": "",
+    "descripcion_larga": "",
+    "stock": 0,
+    "destacado": false,
+    "estado": true
+  }
+}
+]

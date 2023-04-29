@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  {% load static %}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block titulo %}{% endblock %}</title>
+
+  <style type="text/css">
+    @page {
+      size: letter;
+
+      @frame header_frame {
+          -pdf-frame-content: header;
+          left: 30pt; width: 552pt;
+          top: 20pt; height: 100pt;
+      }
+
+      @frame content_frame {
+          left: 50pt; width: 512pt;
+          top: 120pt; height:520pt;
+      }
+
+      @frame footer_frame {
+          -pdf-frame-content: footer;
+          left: 50pt; width: 442pt;
+          top: 690pt; height: 100pt;
+      }
+      @frame qr_frame {
+          -pdf-frame-content: qr;
+          left: 492pt; width: 100pt;
+          top: 670pt; height: 100pt;
+      }
+    }
+
+    body {
+      font-size: 16px;
+    }
+    h1 {
+      text-align: center;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    #header img {
+      height: 80px;
+      width: auto;
+    }
+    #header .fecha {
+      text-align: right;
+    }
+
+    .content {
+      text-align: justify;
+    }
+
+    .firma {
+      text-align: center;
+    }
+    .firma img {
+      height: 130px;
+      width: auto;
+    }
+    .firma .nombre {
+      font-weight: bold;
+    }
+
+    #footer {
+      text-align: right;
+      font-size: 12px;
+    }
+    #qr img {
+      width: 120px;
+      height: 120px;
+    }
+    {% block estilos %}{% endblock %}
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    {% block header %}
+      <img src="{% static 'escudo_largo.png' %}">
+      <div class="fecha">Coyhaique, {{fecha}}</div>
+    {% endblock %}
+  </div>
+
+  <div class="content">
+    {% block contenido %}{% endblock %}
+
+    {% block firma %}
+      <div class="firma">
+        <img src="{% static 'firma_certificados.png' %}">
+        <div class="nombre"> Ximena Jiménez Ulloa  </div>
+        <div>Secretaria General</div>
+      </div>
+    {% endblock %}
+  <div>
+
+  <div id="footer">
+    {% block footer %}
+      <div>Verificación de Certificado</div>
+      <div><a href="{{qr_url}}">{{qr_url}}</a></div>
+    {% endblock %}
+  </div>
+
+  <div id="qr">
+    <img src="data:image/png;base64,{{qr_base64}}">
+  </div>
+</body>
+</html>

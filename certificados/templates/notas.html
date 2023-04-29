@@ -1,0 +1,64 @@
+{% extends "base_certificados.html" %}
+
+{% block titulo %}Certificado de Notas{% endblock %}
+
+{% block contenido %}
+  <h1>Certificado de Notas</h1>
+
+  <p>
+    La Secretaria General que suscribe, certifica que
+    <b>{{estudiante.persona.nombre_legal_ordenado}}</b>,
+    Cédula de Identidad N° <b>{{estudiante.persona.documento}}</b>,
+    registra la calidad de estudiante regular durante el año {{ano}}
+    en la carrera <b>{{estudiante.plan.carrera}}</b>, dependiente de la Universidad de Aysén,
+    contando con los siguientes registros académicos:
+  </p>
+
+  <table>
+    <tr>
+      <th style="width:10%">Periodo</th>
+      <th style="width:50%">Nombre</th>
+      <th style="width:10%">Créditos</th>
+      <th style="width:20%">Estado</th>
+      <th style="width:10%">Nota Final</th>
+    </tr>
+
+    {% for periodo, datos in periodos.items %}
+      {% for curso in datos.cursos %}
+        <tr {% if forloop.counter == 1 %} class="primera" {% endif %}>
+          <td>{{curso.curso.periodo.ano}}-{{curso.curso.periodo.numero}}</td>
+          <td>{{curso.curso.ramo.nombre}}</td>
+          <td>{{curso.curso.creditos}}</td>
+          <td>{{curso.estado}}</td>
+          <td>{{curso.nota_final|default_if_none:"--"}}</td>
+        </tr>
+      {% endfor %}
+
+      {% if datos.promedio is not None %}
+        <tr class="promedio">
+          <td colspan="4">
+            Promedio de notas de las asignaturas aprobadas en el periodo
+          </td>
+          <td>{{ datos.promedio }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </table>
+
+  <p>Se otorga el presente certificado para los fines que estime conveniente.</p>
+{% endblock %}
+
+{% block estilos %}
+table th, table td {
+  text-align: left;
+  font-size: 12px;
+}
+
+.promedio {
+  font-weight: bold;
+}
+.primera {
+  border-top: .1px solid #666;
+  padding-top: .25rem;
+}
+{% endblock estilos %}

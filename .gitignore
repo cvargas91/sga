@@ -1,0 +1,27 @@
+# archivos de configuración
+config/*.json
+config/.env
+
+# proyecto
+tools/**.png
+tools/respaldo_*.json
+datos_postulantes/
+datos_estudiantes/
+
+# Python/Django
+*.pyc
+__pycache__
+db.sqlite3
+.env
+venv
+env
+
+# archivos media y static
+/media/
+/static/
+*.log.*
+# IDEs
+.idea/
+
+.vscode
+restclient.http
